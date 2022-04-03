@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author esorbaci
  */
 
+@Controller
 public class AuthorController {
 
     private IAuthorRepository authorRepository;
